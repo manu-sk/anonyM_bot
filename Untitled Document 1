@@ -1,0 +1,2 @@
+d['patterns']= rowdata[1]
+		d['responses']= rowdata[2]

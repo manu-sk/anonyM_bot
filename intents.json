@@ -1,0 +1,70 @@
+{"intents": [
+        {"tag": "ipsum",
+         "patterns": "What is",
+         "responses": "Ipsum is a chatbot,SG developed it"
+        },
+        {"tag": "ipsum",
+         "patterns": "ipsum",
+         "responses": "Ipsum is a chatbot,SG developed it" 
+        },
+        {"tag": "ipsum",
+         "patterns": "who developed",
+         "responses": "Ipsum is a chatbot,SG developed it"
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi"],
+         "responses": ["Hello, thanks for visiting"]
+        },
+        {"tag": "greeting",
+         "patterns": ["How are you"],
+         "responses": ["Good to see you again"]
+        },
+        {"tag": "greeting",
+         "patterns": "Is anyone there?",
+         "responses": "Hi there, how can I help?"
+        },
+        {"tag": "greeting",
+         "patterns": "Hello",
+         "responses": "Bonjure"
+        },
+        {"tag": "greeting",
+         "patterns": "Good day",
+         "responses": "thanks,bye"
+        },
+        {"tag": "goodbye",
+         "patterns": "Bye",
+         "responses": "C,U"
+        },
+        {"tag": "thanks",
+         "patterns": "Thanks",
+         "responses": "Happy to help!"
+        },
+        {"tag": "hours",
+         "patterns": "When is the match?",
+         "responses": "We're open every day 9am-9pm"
+        },
+        {"tag": "football",
+         "patterns": "Which teams you support?",
+         "responses": "Real Madrid,Barcelona"
+        },
+        {"tag": "Players",
+         "patterns": "Who is the best player in the world?",
+         "responses": "Cristiano Roanldo", 
+         "context_set": "HALA Madrid"
+        },
+        {"tag": "booktoday",
+         "patterns": "Can i book today?", 
+         "responses": "We're open every day from 9am-9pm",
+         "context_set": "HALA Madrid"
+        },
+        {"tag": "Manu",
+         "patterns": "Who is manu?", 
+         "responses": "Manu is a good man"
+        },
+        {"tag": "India",
+         "patterns": "You live at?",
+         "responses": "I live at India"
+        }
+  ] 
+}
+

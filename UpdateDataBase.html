@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataBase Updation Page</title>
+</head>
+<style>
+body {font-family: verdana; font-size: 12px; text-transform:capitalize;}
+#content {margin: 20px;}
+table,th,td {border:1px solid #d1d1d1; padding: 12px;}
+</style>
+</head>
+<body>
+<form method="post" action="localhost/updateTrainingData.php">
+<h1>Training Data Details</h1>
+<table>
+    <tr border='1' cell-padding='2'>
+        <th>Intents</th>
+        <th>Question Patterns</th>
+        <th>Responses</th>
+    </tr>
+    <tr>
+        <td><input type="text" name="Intents"></td>
+        <td><input type="text" name="QuestionPatters"></td>
+        <td><input type="text" name="Responses"></td>
+    </tr>
+</table>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>

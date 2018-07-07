@@ -1,0 +1,36 @@
+Hi
+
+
+This is a demo of chatbot called anonyM developed by MANU SK
+
+
+This is developed using python, tensorflow and google speech recognizion
+
+
+This chatbot currently works with supervised learning .... which means we know the questions and responses.. we are going to train the 
+machine based on the questions using tensorflow.
+
+
+User can give two types of inputs to the bot : 1. Audio as an input( google's speech Reco is used)
+					       2. Text as input ( normal python script input)
+
+Small gramatical errors and spelling mistakes are not considered to give the responses in this chat bot
+
+
+Here we have mainly 3 files
+1. intents.json ---> This file contains the 'tag','patterns','responses' 
+2. anonyM_trainer.py -----> This is used to train the machine based on the intents in intents.json file and is stored as anonyM_model.
+   Tensorflow which is a ML library which is used to train the machine.
+3. anonyM_bot.py -------> This is used to get the reponses for the questions which are asked to the machine.
+   The pre-trained data using tensorflow(ML) is used here.
+   
+     
+Now we will see the response for audio inputs
+:)
+
+Thank you:))
+
+Ignore the 0's and 1's we are getting this because i'm just printing the classes and dictionaries
+And the context_text will get printed as response if nothing you said matches the data
+
+       					       	 
