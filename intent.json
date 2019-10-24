@@ -1,47 +1,36 @@
-{"intents":[
-   {
-      "tag": "greeting",
-      "patterns": "['Hi','How are you?','Is anyone there?,'Good day']",
-      "responses": "['Bonjure','Great,You?','Ipsum is here for you','Hi','How can I help you?']"
+{"intents": [
+   {"tag": "answerit",
+    "patterns": ["What is answerit?","Who developed answerit?"],
+    "responses": ["Answerit is a chatbot,Manu developed it"]
    },
-   {
-      "tag": "goodbye",
-      "patterns": "['Bye','See you later','Goodbye']",
-      "responses": "['C,ya','take care,bye','see ya later,thanks','Bye!']"
+   {"tag": "greeting",
+    "patterns": ["Hi","How are you","Anybody there?","Good day"],
+    "responses": ["Hello","Good to see you again","Hi there, how can I help?","Hallo","thanks,bye"]
+   }, 
+   {"tag": "goodbye",
+    "patterns": ["Bye","C,U"],
+    "responses": ["C,U","Have a nice day"]
    },
-   {
-      "tag": "thanks",
-      "patterns": "['Thanks','Thank you','That's helpful']",
-      "responses": "['welcome','same to you','Happy to help','Any time','My pleasure']"
+   {"tag": "thanks",
+    "patterns": ["Thanks","Thank you"],
+    "responses": ["Happy to help!","No problem"]
    },
-   {
-      "tag": "hours",
-      "patterns": "['When is the match?','what are your hours?','When are you open?']",
-      "responses": "['today','9am - 9pm','we're open every day 9 to 9','open today']"
+   {"tag": "hours",
+    "patterns": ["When is the match?","Match time please"],
+    "responses": ["Midnight","10PM","In the evening it is"]
    },
-   {
-      "tag": "football",
-      "patterns": "['Which teams you support?','who are the best teams now?']",
-      "responses": "['Many teams including RMA and Barca','Real Madrid,Barcelona','I support Spanish teams']"
+   {"tag": "teams",
+    "patterns": ["Which teams you support?","What are the top football teams in LA-LIGA?"],
+    "responses": ["Real Madrid,Barcelona"]
    },
-   {
-      "tag": "Players",
-      "patterns": "['Who is the best player in the world?,'Who has scored more goals?']",
-      "responses": "['C.Ronaldo','Messi','Cristiano Ronaldo','Lionel Messi']"
+   {"tag": "Players",
+    "patterns": ["Who is the best player in the world?","Who will win ballondo'r this time?"],
+    "responses": ["Cristiano Roanldo","Lionel Messi!","Dybala. Haha"], 
+    "context_set": "HALA Madrid"
    },
-   {
-      "tag": "booktoday",
-      "patterns": "['Can i book today?','When can i book the tickets','What are your hours of opening?']",
-      "responses": "['ofcourse,yes','Any time when we are open','today sure']"
-   },
-   {
-      "tag": "India",
-      "patterns": "['You live at?','Best country in the world to live?']",
-      "responses": "['Banglore,India','I live at India,great country']"
-   },
-   {
-      "tag": "national holiday",
-      "patterns": "['when is the holiday','list national holidays']",
-      "responses": "['jan 26','nov 1','oct 2']"
+   {"tag": "Manu",
+    "patterns": ["Who is manu?","What is manu doing nowadays?"], 
+    "responses": ["Manu is a student at T.U.Kaiserslautern, looking for a HiWi Job!"]
    }
-]}
+] 
+}
